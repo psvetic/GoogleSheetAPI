@@ -1,0 +1,92 @@
+body {
+    font-family: 'Architects daughter';
+    background-image: url('./lines.svg');
+    background-blend-mode: overlay;
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #dde5db;*/
+}
+
+.main-wrapper {
+    border: 1px solid black;
+    background-color: #e5e5e5;
+    font-size: x-large;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 570px;
+    height: 380px;
+    border-radius: 60px;
+    justify-content: center;
+}
+
+.input-field {
+    font-family: 'Cambria';
+    height: 22px;
+    width: 161px;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.input-field-cal {
+    font-family: 'Cambria';
+    text-align: center;
+    font-size: 18px;
+    height: 25px;
+    width: 161px;
+    padding-left: 7px;
+}
+
+.input-field-select {
+    width: 171px;
+    font-family: 'Cambria';
+    font-size: 18px;
+    height: 28px;
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+.butt {
+    margin-top: 22px;
+    font-family: 'Cambria';
+    text-transform: uppercase;
+    height: 39px;
+    width: 88px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    border: none;
+    color: white;
+}
+
+.label1 {
+    padding-right: 3px;
+}
+
+.label2 {
+    padding-right: 42px;
+}
+
+.label3 {
+    padding-right: 60px;
+}
+
+.label4 {
+    padding-right: 0;
+}
+
+@media only screen and (max-width: 620px) {
+    .main-wrapper {
+        width: auto;
+        height: auto;
+        margin: 0px 22px;
+        padding: 15px 20px;
+        text-align: center;
+    }
+}
